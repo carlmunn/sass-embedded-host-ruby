@@ -214,6 +214,10 @@ module Sass
             interpreter
           end
         end
+      else
+        # The logic above is Linux specific. If we're in FreeBSD it won't
+        # apply. The Rakefile logic handles nil but the test's don't
+        warn "No INTERPRETER const set (#{RbConfig::CONFIG['host_os']})"
       end
     end.freeze
   end

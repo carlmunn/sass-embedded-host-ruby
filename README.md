@@ -43,6 +43,8 @@ puts compressed.css
 
 See [rubydoc.info/gems/sass-embedded/Sass](https://rubydoc.info/gems/sass-embedded/Sass) for full API documentation.
 
+Modified to support FreeBSD with [Linux compatibilty enabled](https://docs.freebsd.org/en/books/handbook/linuxemu/)
+
 ---
 
 Disclaimer: this is not an official Google product.

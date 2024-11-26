@@ -314,7 +314,7 @@ module SassConfig
            'linux-musl'
          when /linux-uclibc/
            'linux-uclibc'
-         when /linux/
+         when /linux/, /freebsd/
            'linux'
          when *Gem::WIN_PATTERNS
            'windows'
